@@ -12,8 +12,8 @@ importers:
         specifier: ^15.0.0
         version: 15.0.0
       documents.js:
-        specifier: ^1.99.28
-        version: 1.99.28
+        specifier: ^1.99.24
+        version: 1.99.24
       ink:
         specifier: ^7.1.1
         version: 7.1.1(@types/react@19.2.18)(react@19.2.8)
@@ -1732,12 +1732,8 @@ packages:
     resolution: {integrity: sha512-Ynn8lc7/J5s1gdc96WKFEGkRWKLvWhhHhCdT5wkR8+i7xyGsdIfUmOKHfX81bPtvbVIfAGCNl8Fjp1xxajB9GA==}
     engines: {node: '>=20'}
 
-  document-schema.js@2.7.9:
-    resolution: {integrity: sha512-oacNnOscno9X8C15LdqOJsCeZSClOn0P2PYwBn/t72r+gfQ5G9blVS6G4WKRowHRvSzRA+dEPAzC/o1rTVTCZA==}
-    engines: {node: '>=20'}
-
-  documents.js@1.99.28:
-    resolution: {integrity: sha512-aR+PZ9d8kO1s3oq4kKhumSUcXBpTwIX7wvvk9gAuvnFVFHq38W+FzNKgS9f1PFxsqLyP8LIfBfp/oE6XqVpFPA==}
+  documents.js@1.99.24:
+    resolution: {integrity: sha512-28g0v2GkotsXXCFW3PJLRO+ctnkWvjiiRKRGddRW7O1GV9VUj6GQBxfRn6FBk6LjzUUqIJ7xbgylWoasTaO13w==}
     engines: {node: '>=20'}
     hasBin: true
 
@@ -2616,10 +2612,6 @@ packages:
 
   odf.js@2.7.10:
     resolution: {integrity: sha512-JsetaruKxtILTM11z12Iz8zRvuzYgORkCvujwKWf4doGOLHHXB7HWj7mQ+BzlcqB2OI6S7RIAR9sKGdNdYKD/g==}
-    engines: {node: '>=20'}
-
-  odf.js@2.7.9:
-    resolution: {integrity: sha512-CsiIBh9rCIlU68ZPZHHufUhrigM6xs4SDzDdk8pse82RpsVdBT9pij1TIxO3OMpdXL4zxzArR9NsCHMQ2fJy0w==}
     engines: {node: '>=20'}
 
   onetime@5.1.2:
@@ -4999,17 +4991,13 @@ snapshots:
     dependencies:
       zod: 4.4.3
 
-  document-schema.js@2.7.9:
-    dependencies:
-      zod: 4.4.3
-
-  documents.js@1.99.28:
+  documents.js@1.99.24:
     dependencies:
       byte-codec: 1.1.8
-      document-schema.js: 2.7.9
+      document-schema.js: 2.7.10
       fflate: 0.8.3
       markdown-codec: 1.3.16
-      odf.js: 2.7.9
+      odf.js: 2.7.10
       ooxml.js: 2.11.20
       pdf-codec: 2.2.13
       zod: 4.4.3
@@ -5692,7 +5680,7 @@ snapshots:
 
   markdown-codec@1.3.16:
     dependencies:
-      document-schema.js: 2.7.9
+      document-schema.js: 2.7.10
       zod: 4.4.3
 
   marked-terminal@7.3.0(marked@15.0.12):
@@ -5817,13 +5805,6 @@ snapshots:
       fflate: 0.8.3
       zod: 4.4.3
 
-  odf.js@2.7.9:
-    dependencies:
-      document-schema.js: 2.7.9
-      fast-xml-parser: 5.10.1
-      fflate: 0.8.3
-      zod: 4.4.3
-
   onetime@5.1.2:
     dependencies:
       mimic-fn: 2.1.0
@@ -5834,7 +5815,7 @@ snapshots:
 
   ooxml.js@2.11.20:
     dependencies:
-      document-schema.js: 2.7.9
+      document-schema.js: 2.7.10
       fast-xml-parser: 5.10.1
       fflate: 0.8.3
       zod: 4.4.3
