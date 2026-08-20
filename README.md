@@ -1,5 +1,7 @@
 # document-cli
 
+> **This repository has moved.** `document-cli` now lives at [`packages/document-cli`](https://github.com/ExaDev/documents.js/tree/main/packages/document-cli) in the [`ExaDev/documents.js`](https://github.com/ExaDev/documents.js) monorepo. This repository is archived and will receive no further commits, releases, issues, or pull requests — file issues and send pull requests against the monorepo instead. The npm package itself is unaffected: `document-cli` keeps publishing from its new home under the same name.
+
 [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/ExaDev/document-cli) [![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white)](https://www.npmjs.com/package/document-cli) [![Release](https://img.shields.io/github/v/release/ExaDev/document-cli)](https://github.com/ExaDev/document-cli/releases/latest) [![CI](https://img.shields.io/github/actions/workflow/status/ExaDev/document-cli/ci.yml?branch=main)](https://github.com/ExaDev/document-cli/actions)
 
 > A command-line interface and an interactive terminal (Ink) app for [`documents.js`](https://github.com/ExaDev/documents.js): every docx/pptx/odt/odp/ods/odg/odf/pdf/odm/odb/xlsx/csv/svg/markdown conversion, bridge, and editor documents.js exposes, plus the outline projection [`document-outline.js`](https://github.com/ExaDev/document-outline.js) builds over any readable document, wired up as a scriptable subcommand or a full-screen terminal editor. Installs as either `document-cli` or `doculi`.
